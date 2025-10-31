@@ -1,0 +1,5 @@
+ip=input("enter a list of numbers separated by spaces: ").split()
+op=list(map(int,ip))
+print(op)
+avg=sum(op)/len(op)
+print("The average of the list is:",avg)
